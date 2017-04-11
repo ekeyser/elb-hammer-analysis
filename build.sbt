@@ -15,7 +15,7 @@ libraryDependencies ++= Seq(
   "org.apache.spark" %% "spark-core" % "2.1.0" % "provided",
   "org.apache.spark" %% "spark-sql" % "2.1.0" % "provided",
   "org.json4s" %% "json4s-native" % "3.5.0",
-  "com.amazonaws" % "aws-java-sdk" % "1.11.97"
+  "com.amazonaws" % "aws-java-sdk" % "1.11.118"
 )
 
 mergeStrategy in assembly := {
